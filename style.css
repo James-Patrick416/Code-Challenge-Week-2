@@ -1,0 +1,42 @@
+body {
+    margin: 100px;
+  background: whitesmoke;  /*light gray background color*/
+  font-family: sans-serif;   /* clean readable format*/
+}
+
+h1 {
+  text-align: center;   /*centers heading*/  
+}
+
+#guest-form {
+  display: flex;  /* arrange form elements in a row*/
+  justify-content: center;
+  margin-bottom: 21px;/* Add space below the form */
+}
+
+#guest-name {
+  padding: 1cap;/* add space in the input*/
+  width: 200px; 
+  margin-right: 0px;/* no space to the right*/
+}
+
+button {
+  padding: 8px 12px;/*space inside buttons*/
+  border-radius: 0px;/*square corners*/
+}
+
+#guest-list {
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.guest-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid blueviolet;
+  margin-bottom: 8px;
+}
