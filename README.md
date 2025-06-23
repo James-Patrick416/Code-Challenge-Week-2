@@ -22,9 +22,12 @@ html
 
 ###### project structure 
 
-event-guest-list-manager/
-├── index.html                # Main HTML structure of the app   
-├── style.css                 # All styles and layout (UI design)
-├── script.js                 # JavaScript logic: DOM manipulation, event handling
-├── README.md                 # Project overview and instructions                
+event-guest-list-manager/  
+│
+├── src/  
+│   └── script.js           
+│
+├── index.html              
+├── style.css             
+└── README.md                             
 
